@@ -1,5 +1,11 @@
 {
+    // 活动栏
     "workbench.activityBar.visible": false,
+    // 缩略图
+    "editor.minimap.enabled": false,
+    
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
     "files.associations": {
         "iostream": "cpp"
     }
