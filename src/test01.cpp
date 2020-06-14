@@ -23,7 +23,9 @@ int main(int argc, char const *argv[])
     book1.bookId = 2;
     printBook(book1);
 
-    
+    struct Book * book2;
+    book2 = &book1;
+    printBook(book2);
 
     /* code */
     return 0;
@@ -40,5 +42,18 @@ void printBook(struct Book book)
     book.author,
     book.subject,
     book.bookId
+    );
+}
+void printBook(struct Book * book)
+{
+    printf(
+    " this book's title is %s, \n\
+      this book's author is %s, \n\
+      this book's subject is %s \n\
+      this book's id is %d \n",
+    book->title,
+    book->author,
+    book->subject,
+    book->bookId
     );
 }

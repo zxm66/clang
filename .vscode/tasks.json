@@ -4,7 +4,8 @@
 		{
 			"type": "shell",
 			"label": "C/C++: gcc build active file",
-			"command": "/usr/bin/gcc",
+			// use the g++ debug the code
+			"command": "/usr/bin/g++",
 			"args": [
 				"-g",
 				"${file}",
