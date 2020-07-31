@@ -17,6 +17,18 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+int add(int a, int b)
+{
+		return a + b;
+}
+
+
+int remove(int a ,int b)
+{
+		return a - b;
+}
+
+
 void printData(union Data data)
 {
     printf("the data's i is %d \n\

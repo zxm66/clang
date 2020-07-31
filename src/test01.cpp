@@ -10,6 +10,13 @@ struct Book
     int bookId;
     /* data */
 };
+struct Answer
+{
+		char ecno[20];
+		char answer_start_time[20];
+		char answer_end_time[20];
+		char classroom_id[10];
+};
 int main(int argc, char const *argv[])
 {
     struct Book book = {"piao","ii","ll",1};
@@ -31,6 +38,14 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+void printAnswer()
+{
+
+
+
+
+
+}
 void printBook(struct Book book)
 {
     printf(
